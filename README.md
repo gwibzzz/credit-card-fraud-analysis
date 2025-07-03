@@ -26,4 +26,45 @@ This project explores a credit card transaction dataset to detect fraud patterns
 ## 🧪 Output Summary
 
 From the most recent analysis (`fraud_stats.txt`):
+[1] Fraud vs Non-Fraud Count:
+Non-Fraud: 284,315
+Fraud: 492
+
+[2] Average Transaction Amount:
+Non-Fraud: $88.29
+Fraud: $122.21
+
+
+## 🛠️ How to Run
+
+1. **Set up a virtual environment** (recommended):
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+2. **Install dependencies**:
+    ```
+    pip install pandas matplotlib
+    ```
+
+3. **Place the dataset** (`creditcard.csv`) in the same folder as the script.
+
+4. **Run the script**:
+    ```
+    python analyze_fraud.py
+    ```
+
+5. **Check output files**:
+    - `fraud_vs_nonfraud.png`
+    - `avg_amount.png`
+    - `fraud_stats.txt`
+
+## 📌 Notes
+
+- The dataset is highly imbalanced (fraud cases are less than 0.2%), so comparing distribution and average values is helpful for understanding the data.
+- This is an exploratory project with no machine learning or predictive modeling.
+
+---
+
 
