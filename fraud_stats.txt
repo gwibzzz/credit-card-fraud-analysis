@@ -1,0 +1,7 @@
+[1] Fraud vs Non-Fraud Count:
+Non-Fraud: 284,315
+Fraud: 492
+
+[2] Average Transaction Amount:
+Non-Fraud: $88.29
+Fraud: $122.21
